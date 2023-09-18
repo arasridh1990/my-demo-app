@@ -23,6 +23,6 @@ phases:
       #aws cloudfront create-invalidation --distribution-id <cloudfront-distribution-id> --paths /index.html
 artifacts:
   files:
-    -'/**/*'
+    -'**/*'
   discard-paths: no
   base-directory: build
