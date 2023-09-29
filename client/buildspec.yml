@@ -5,7 +5,7 @@ phases:
     commands:
       - echo installing dependencies...
     #If you use the Ubuntu standard image 2.0 or later, you must specify runtime-versions.
-    #If you specify runtime-versions and use an image other than Ubuntu standard image 2.0, the build fails.
+    # If you specify runtime-versions and use an image other than Ubuntu standard image 2.0, the build fails.
     runtime-versions:
       nodejs: 18
   pre_build:
